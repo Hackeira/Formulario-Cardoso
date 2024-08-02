@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cardoso</title>
+</head>
+<body>
+    
+    <header>
+        
+        <img src="/imgs/logo-cardoso.webp" alt="logo-cardoso">
+
+        <strong><p id="descricao">Responda o formulário abaixo:</p></strong>
+
+        
+    
+    </header>
+
+        <form id="forma">
+
+        <fieldset id="nome">
+
+            <label for="nome">
+
+                <h3>Nome Completo:</h3>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome..." required>
+
+            </label>
+
+            
+            
+            <label id="email-label">
+                
+                <h3>Email:</h3>
+                <input type="email" name="email" id="email" placeholder="" required>
+
+            </label>
+
+            <label id="idade-label">
+                
+                <h3>Idade:</h3>
+                <input type="number" name="idade" id="idade" placeholder="" min="15" max="90" required>
+
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+
+            <label id="radio-label">
+                <h3>Você compra jóias frequentemente?</h3>
+                <input type="radio" name="radio" id="radio" required><span>Sim</span>
+                <input type="radio" name="radio" id="radio" required><span>As vezes</span>
+                <input type="radio" name="radio" id="radio" required><span>Não</span>
+
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+
+            <label id="dropdown-label">
+
+                <h3>Como você conheceu a Cardoso?</h3>
+                <select name="dropdown" id="dropdown">
+
+                    <option value="instagram">Recomendação</option>
+                    <option value="instagram">Redes Sociais</option>
+                    
+
+                </select>
+
+            </label>
+        </fieldset>
+        
+        <fieldset>
+
+            <label id="checkbox-label">
+
+            
+                <h3>Quais jóias você normalmente usa?</h3>
+                <input type="checkbox" name="" id="">Anéis
+                <input type="checkbox" name="" id="">Colares
+                <input type="checkbox" name="" id="">Brincos
+
+                
+                
+
+            </label>
+        </fieldset>
+        
+        <fieldset>
+
+            <label id="filhos-label">
+
+                <h3>Você tem filhos? (Se sim, quantos?)</h3>
+
+                <input type="number" name="" id="" min="0">
+
+            </label>
+        </fieldset>
+        
+        <fieldset>
+            <label id="radio-label">
+
+                <h3>Você tem marido/esposa?</h3>
+
+                <input type="radio" name="radio" id="radio" required><span>Sim</span>
+                <input type="radio" name="radio" id="radio" required><span>Não</span>
+
+            </label>
+        </fieldset>
+        
+        <fieldset>
+            <label id="nome-llabel">
+
+                <h3>Se sim, qual o nome dele/dela?</h3>
+                <input type="text" name="" id="" placeholder="Digite o nome...">
+
+            </label>
+        </fieldset>
+        
+        <fieldset>
+            <label id="data-label">
+
+                <h3> Qual a data de namoro/casamento de vocês?</h3>
+
+                <input type="date" name="" id="">
+
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <label id="bio-label">
+
+                <h3>Agora conte-nos um pouco mais sobre você!</h3>
+                <textarea name="bio" id="bio" rows="10" cols="30" placeholder="Ex: Gosto muito de praia..."></textarea>
+
+            </label>
+        </fieldset>
+
+        <button role="button" class="golden-button">
+            <span class="golden-text">Enviar</span>
+          </button>
+          
+
+        </form>
+
+
+</body>
+</html>
